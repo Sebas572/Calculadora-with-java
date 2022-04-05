@@ -6,8 +6,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 import javax.swing.JButton;
-import javax.swing.JOptionPane;
-import javax.swing.JTextField;
 import javax.swing.border.LineBorder;
 
 public class CreateButtons {
@@ -42,15 +40,15 @@ public class CreateButtons {
 		this.name = name;
 		this.x0 = x0;
 		this.y0 = y0;
-		this.x1 = 100;
-		this.y1 = 100;
+		this.x1 = 70;
+		this.y1 = 70;
 		
 		create();
 	}
 	
 	public void create() {
 		this.Button = new JButton((String) this.name);	//create button that has Boton as text
-		this.Button.setFont(new Font("Arial", Font.BOLD, 25));	//letter format
+		this.Button.setFont(new Font("Arial", Font.BOLD, 18));	//letter format
 		this.Button.setForeground(Color.decode("#E5F1FF"));	//Font color
 		this.Button.setBackground(Color.decode("#4D9DFF"));	//Background color
 		this.Button.setBorder(new LineBorder(Color.decode("#4D6380"), 5));	//Set borders
