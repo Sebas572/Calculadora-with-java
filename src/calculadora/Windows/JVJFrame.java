@@ -26,7 +26,7 @@ public class JVJFrame extends JFrame {
 	
 	public JVJFrame() {
 		System.out.println("Init app");
-		this.setPreferredSize(new Dimension(320, 400));	//Screen size
+		this.setPreferredSize(new Dimension(320, 410));	//Screen size
 		this.setTitle("Calculadora");	//App title
 		this.setDefaultCloseOperation(EXIT_ON_CLOSE);	//Event on click closed
 		this.setLocationRelativeTo(null);	//Location in screen center
