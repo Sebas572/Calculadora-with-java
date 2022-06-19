@@ -1,5 +1,9 @@
-Create a calculator in java without tools that help create graphical interfaces, to improve with the java.swing library
+# Calculator
+### Create a calculator in java without tools that help create graphical interfaces, to improve with the java.swing library
 
+<div align="center">
+	<img src="https://i.imgur.com/raPIrCU.png">
+</div>
 ---------------------------------------------------------------------------------------------------
 
 The JVJFrame file is responsible for generating
